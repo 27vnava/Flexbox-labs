@@ -1,5 +1,5 @@
 html, body{
-    height:100%
+    height:100%;
 }
 
 main{ 
@@ -20,8 +20,21 @@ nav ul{
 
 .vertical ul{ 
     display: flex; 
-    flex-direction: 
+    flex-direction: column;
     gap: 16px; 
     list-style-type: none; 
 
+}
+
+.pane{ 
+    display: flex; 
+    flex-direction: row; 
+}
+
+.card{ 
+    flex: 1; 
+}
+
+.mango{ 
+    width: 100%; 
 }
