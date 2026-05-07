@@ -5,21 +5,19 @@ html, body {
     padding: 0;
 }
 
-/* Step 6b: 5 color classes for sections */
-.color1 { background-color: #a2c2f9; } /* Header Blue */
-.color2 { background-color: #c5b3d9; } /* Nav Purple */
-.color3 { background-color: #f2d1c9; } /* Main Pink/Peach */
-.color4 { background-color: #bfa1d4; } /* Aside Darker Purple */
-.color5 { background-color: #94bfff; } /* Footer Blue */
+.color1 { background-color: #c8ff00; } 
+.color2 { background-color: #f52323; } 
+.color3 { background-color: #f2d1c9; }
+.color4 { background-color: #953fd3; } 
+.color5 { background-color: #1f4b8b; } 
 
-/* Step 6d: Container class */
 .container {
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-/* Step 6e: Header and Footer fixed basis */
+
 header, footer {
     flex: 0 0 150px;
     display: flex;
@@ -27,7 +25,7 @@ header, footer {
     align-items: center;
 }
 
-/* Step 6f: Center div row setup */
+
 .center {
     flex: 1;
     display: flex;
@@ -36,19 +34,17 @@ header, footer {
     justify-content: center;
 }
 
-/* Step 6i: Nav and Aside growth ratio 1 */
 nav, aside {
     flex: 1;
     padding: 20px;
 }
 
-/* Step 6j: Main growth ratio 3 */
+
 main {
     flex: 3;
     padding: 20px;
 }
 
-/* Optional: Center text alignment for the labels */
 header, footer, nav, main, aside {
     text-align: center;
 }
