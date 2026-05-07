@@ -48,3 +48,18 @@ main {
 header, footer, nav, main, aside {
     text-align: center;
 }
+
+header {
+    flex: 0 0 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;     
+}
+
+.home-link {
+    position: absolute;
+    left: 20px;              
+    text-decoration: none;
+    font-size: 1.2rem;
+}
