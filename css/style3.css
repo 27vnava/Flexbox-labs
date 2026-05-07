@@ -5,11 +5,11 @@ html, body {
     padding: 0;
 }
 
-.color1 { background-color: #c8ff00; } 
-.color2 { background-color: #f52323; } 
-.color3 { background-color: #f2d1c9; }
-.color4 { background-color: #953fd3; } 
-.color5 { background-color: #1f4b8b; } 
+.color1 { background-color: #ddff63; } 
+.color2 { background-color: #b85d95; } 
+.color3 { background-color: #5effea; }
+.color4 { background-color: #ff3784; } 
+.color5 { background-color: #fb80ff; } 
 
 .container {
     min-height: 100%;
